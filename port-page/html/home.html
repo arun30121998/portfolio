@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="/port-page/css/home.css" />
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body onload="pageLoad()">
+    <div class="container">
+      <div
+        class="fa fa-bars"
+        style="float: right; font-size: 50px"
+        onclick=" showMenu()"
+      ></div>
+
+      <div class="nav-items">
+        <a href=""><p>HOME</p></a>
+        <a href="about-me.html"><p>ABOUT</p></a>
+        <a href="projects.html"><p>PORTFOLIO</p></a>
+        <a href="resume.html"><p>RESUME</p></a>
+      </div>
+      <div class="nav-title-text">
+        <h1>Iam <span>ARUN</span> </h1>
+        <div class="text-slider">
+          <p id="role"></p>
+        </div>
+        <button id="say-hello-btn" onclick=" sayHai()">Say Hello !</button>
+        <p id="respond-text"></p>
+      </div>
+    </div>
+    <script src="/port-page/js/home.js"></script>
+  </body>
+</html>
