@@ -52,6 +52,11 @@ const productsData = [
     heading: "Heading",
     content: "$ 20",
   },
+  {
+    image: "product-images/p-1-1.jpg",
+    heading: "Heading",
+    content: "$ 250",
+  },
 
 ];
 
